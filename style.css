@@ -1,0 +1,290 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+  }
+  
+  .logo .circle {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links .active {
+    font-weight: bold;
+  }
+  
+  .hiring-tag {
+    background-color: blue;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .get-started {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .get-started:hover {
+    background-color: darkblue;
+  }
+  
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tutorial-link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  h1 {
+    margin: 20px 0 10px;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  .content-search-bar input {
+    margin: 20px auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .trending-topics {
+    margin: 20px 0;
+  }
+  
+  .trending-topics h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .topics {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .topics span {
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  .blog-section {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .blog-sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-sidebar h3 {
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .blog-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-sidebar ul li {
+    margin-bottom: 8px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .blog-sidebar ul li:hover {
+    text-decoration: underline;
+  }
+  
+  .blog-content {
+    width: 75%;
+  }
+  
+  .blog-post {
+    display: flex;
+    gap: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .post-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .post-details {
+    flex: 1;
+  }
+  
+  .date {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .blog-post h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .summary {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .post-meta {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  .tag {
+    background-color: #f0f0f0;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  /* Newsletter Section Styles */
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter-content {
+  max-width: 60%;
+  z-index: 1;
+}
+
+.newsletter-content h4 {
+  color: #007bff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.newsletter-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.newsletter-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #0056b3;
+}
+
+.unsubscribe-text {
+  font-size: 12px;
+  color: #555;
+}
+
+.newsletter-background {
+  position: absolute;
+  right: -50px;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #007bff, #0056b3);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+  
